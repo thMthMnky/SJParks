@@ -2,10 +2,12 @@
 
 # Temporary
 package-lock
-/client/package-lock
-/client/yarn.lock
+client/package-lock
+client/yarn.lock
 yarn.lock
 requestValidation
+git_cheat_sheet
+client/public/index.test.html
 
 # Dependencies
 /client/node_modules

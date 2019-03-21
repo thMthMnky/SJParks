@@ -7,9 +7,9 @@
     "heroku-postbuild": "npm run setup && cd client && npm run build",
     "setup": "npm install && cd client && npm install",
     "start": "node server.js",
+    "dev": "NODE_ENV=development run-p server client",
     "client": "cd client && npm run start",
     "server": "nodemon server.js",
-    "dev": "NODE_ENV=development run-p server client",
     "test": "cd client && npm run test",
     "mongo": "mongod"
   },

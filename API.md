@@ -62,13 +62,9 @@
 
 ---
 
-`/api/message`
+`/api/updates`
 
-`GET` Get all messages
-
-`/api/messages`
-
-`GET` Fetches the index of all messages; both messages recieved and messages sent
+`GET` Fetches the index of all updates; both messages recieved and messages sent
 
 `POST` Creates a new message object
 
